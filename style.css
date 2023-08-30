@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: transparent;
+    background-image: url(assests/mike-yukhtenko-a2kD4b0KK4s-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Number-Text{
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 2rem;
+}
+
+
+#Answer-input{
+    padding: 1rem 5px 10px;
+    background-color: transparent;
+    border: 1px solid aqua;
+    color: #fff;
+    width: 300px;
+    margin: 1rem;
+    transition: ease-in-out 0.5s;
+}
+
+#Answer-input:hover{
+    border: 2px solid rgb(3, 238, 238);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+#btn{
+    background-color: aqua;
+    border: none;
+    padding: 1rem 20px 10px;
+    color: #000;
+    transition: ease-in-out 1s;
+}
+
+#btn:hover{
+    background-color: rgb(2, 180, 180);
+}
